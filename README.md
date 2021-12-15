@@ -1,4 +1,4 @@
-# Request Tracker Bot
+# Request Tracker Bot Forked By AJTimePyro/RequestTrackerBot
 
 This is a Request Tracker Bot repo, It is for those who upload content like movies, anime, etc. It can be used for tracking request of content that your members asked for.
 
