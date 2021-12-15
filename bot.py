@@ -59,14 +59,14 @@ requestRegex = "#[rR][eE][qQ][uU][eE][sS][tT] "
 async def startHandler(bot:Update, msg:Message):
     botInfo = await bot.get_me()
     await msg.reply_text(
-        "Oɪɪ ! ɪ ᴀᴍ ʀᴇQᴜᴇꜱᴛ ᴛʀᴀᴄᴋᴇʀ ʙᴏᴛ🤖.\n\nɪꜰ ʏᴏᴜ ʜᴀᴅɴ'ᴛ ᴀᴅᴅᴇᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ➕ᴀᴅᴅ ᴍᴇ ɴᴏᴡ.\n\nʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ?\n\t1.  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ.\n\t2. ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟ & ɢʀᴏᴜᴘ.\n\t3. ɢɪᴠᴇ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴛᴏ ᴘᴏꜱᴛ , ᴇᴅɪᴛ & ᴅᴇʟᴇᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ.\n\t4. ɴᴏᴡ ꜱᴇɴᴅ ɢʀᴏᴜᴘ ɪᴅ & ᴄʜᴀɴɴᴇʟ ɪᴅ ɪɴ ᴛʜɪꜱ ꜰᴏʀᴍᴀᴛ <Code>/add</code> <code>ɢʀᴏᴜᴘɪᴅ ᴄʜᴀɴɴᴇʟɪᴅ.</code>\n ʙᴏᴛ ɪꜱ ʀᴇᴀᴅʏ ᴛᴏ ʙᴇ ᴜꜱᴇᴅ.\n\n😊ᴊᴏɪɴ @Groupdcbots",
+        "Oɪɪ ! ɪ ᴀᴍ ʀᴇQᴜᴇꜱᴛ ᴛʀᴀᴄᴋᴇʀ ʙᴏᴛ🤖.\n\nɪꜰ ʏᴏᴜ ʜᴀᴅɴ'ᴛ ᴀᴅᴅᴇᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ➕ᴀᴅᴅ ᴍᴇ ɴᴏᴡ.\n\nʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ?\n\t1.  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ.\n\t2. ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟ & ɢʀᴏᴜᴘ.\n\t3. ɢɪᴠᴇ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴛᴏ ᴘᴏꜱᴛ , ᴇᴅɪᴛ & ᴅᴇʟᴇᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ.\n\t4. ɴᴏᴡ ꜱᴇɴᴅ ɢʀᴏᴜᴘ ɪᴅ & ᴄʜᴀɴɴᴇʟ ɪᴅ ɪɴ ᴛʜɪꜱ ꜰᴏʀᴍᴀᴛ <Code>/add</code> <code>ɢʀᴏᴜᴘɪᴅ ᴄʜᴀɴɴᴇʟɪᴅ.</code>\n ʙᴏᴛ ɪꜱ ʀᴇᴀᴅʏ ᴛᴏ ʙᴇ ᴜꜱᴇᴅ.\n\n😊ᴊᴏɪɴ Support Chat @Groupdc\n\n ⚠️ Notes : Add Bot as manual like copy bot username then go your group or Chennal > Administration > Add Admin > Paste Bot Username make admin in both group and channel then /add GroupID ChannelID in bot❗",
         parse_mode = "html",
         reply_markup = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕.",
-                        url = f"https://telegram.me/{botInfo.username}?startgroup=true"
+                        "ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
+                        url = f"https://telegram.me/groupdcbots"
                     )
                 ]
             ]
