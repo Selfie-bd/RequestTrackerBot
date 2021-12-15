@@ -65,8 +65,8 @@ async def startHandler(bot:Update, msg:Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
-                        url = f"https://telegram.me/groupdcbots"
+                        "➕ Add Me to Your Group ➕",
+                        url = f"https://telegram.me/RequestTrackdcbot?startgroup=true"
                     )
                 ]
             ]
