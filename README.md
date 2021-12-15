@@ -31,7 +31,7 @@ These ScreenShots might help you to understand this bot well.
 ## Direct Deploy
 Click Below Button to Deploy your Bot.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AJTimePyro/RequestBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/selfie-bd/RequestBot)
 
 ## How to use?
 1. Deploy your Bot on Heroku
