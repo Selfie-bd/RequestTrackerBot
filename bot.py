@@ -80,6 +80,10 @@ async def startHandler(bot:Update, msg:Message):
                     InlineKeyboardButton(
                         "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕.",
                         url = f"https://telegram.me/{botInfo.username}?startgroup=true"
+                    ),
+                     InlineKeyboardButton(
+                        "Update Channel.",
+                        url = f"https://telegram.me/groupdcbots"
                     )
                 ]
             ]
