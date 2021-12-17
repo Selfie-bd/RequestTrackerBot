@@ -387,7 +387,7 @@ async def callBackButton(bot:Update, callback_query:CallbackQuery):
                         )
 
                         # Result of request sent to group
-                        replyText = f"<b>Oɪɪ {mentionUser}🧑\nYour request for {contentRequested} in {groupResult}\nCheck here https://t.me/c/{channelIDPro}/{requestMSG.message_id}\n👍Thanks for requesting!</b>"
+                        replyText = f"<b>Oɪɪ {mentionUser}🧑\nYour request for {contentRequested} in {groupResult}\n\n👍Thanks for requesting!</b>"
                         await bot.send_message(
                             int(groupID),
                             replyText,
